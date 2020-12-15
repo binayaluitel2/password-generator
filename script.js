@@ -18,13 +18,9 @@ function generatePassword() {
     var containsUpper = confirm("Do you want to include uppercases?");
     var containsNum = confirm("Do you want to include numbers?");
     var containsSpecial = confirm("Do you want to include special characters?");
-
-    console.log(containsUpper);
-    console.log(containsNum);
-    console.log(containsSpecial);
-
     var pwString = lowerChar;
     var password = "";
+    
     if (containsUpper && containsNum && containsSpecial) {
       pwString = (pwString + upperChar + numChar + specialChar);
     } else if (containsUpper && containsNum) {
