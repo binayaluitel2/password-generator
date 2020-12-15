@@ -27,30 +27,23 @@ function generatePassword() {
     var password = "";
     if (containsUpper && containsNum && containsSpecial) {
       pwString = (pwString + upperChar + numChar + specialChar);
-      console.log(pwString);
     } else if (containsUpper && containsNum) {
       pwString = (pwString + upperChar + numChar);
-      console.log(pwString);
 
     } else if (containsNum && containsSpecial) {
       pwString = (pwString + numChar + specialChar);
-      console.log(pwString);
 
     } else if (containsUpper && containsSpecial) {
       pwString = (pwString + upperChar + specialChar);
-      console.log(pwString);
 
     } else if (containsSpecial) {
       pwString = (pwString + specialChar);
-      console.log(pwString);
 
     } else if (containsNum) {
       pwString = (pwString + numChar);
-      console.log(pwString);
 
     } else if (containsUpper) {
       pwString = (pwString + upperChar);
-      console.log(pwString);
 
     }
 
@@ -68,7 +61,6 @@ function generatePassword() {
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
-  // var password = "generatePassword";
 
   var passwordText = document.querySelector("#password");
 
