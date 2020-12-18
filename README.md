@@ -15,7 +15,7 @@ Kudos to Jason McGinthy, Emily Todt and Shauna Dunn. We worked together a team. 
 
 ## Link to the Deployed App
 
-[link to Deployed App](https://binayaluitel2.github.io/password-generator/)
+[Password_Generator](https://binayaluitel2.github.io/password-generator/)
 
 ## Screenshot of Deployed App
 
